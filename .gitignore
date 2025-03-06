@@ -1,3 +1,20 @@
-".venv/" 
-"__pycache__/" 
-"db.sqlite3" 
+# Virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database files
+db.sqlite3
+
+# Django secret key environment file
+.env
+
+# Logs and temporary files
+*.log
+media/
+staticfiles/
